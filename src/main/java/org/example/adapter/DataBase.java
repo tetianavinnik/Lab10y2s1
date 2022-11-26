@@ -1,11 +1,11 @@
 package org.example.adapter;
 
 public class DataBase extends БазаДаних{
-    public String ReturnUserData() {
+    public String returnUserData() {
         return super.отриматиСтатистичніДані();
     }
 
-    public String ReturnStaticData() {
+    public String returnStaticData() {
         return super.отриматиСтатистичніДані();
     }
 

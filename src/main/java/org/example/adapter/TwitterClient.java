@@ -22,8 +22,10 @@ public class TwitterClient implements Client {
 
     @Override
     public LocalDate getLastActiveTime() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        LocalDate localDate = LocalDate.parse(user.getLastActiveTime(), formatter);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern
+                ("yyyy-MM-dd");
+        LocalDate localDate = LocalDate.parse
+                (user.getLastActiveTime(), formatter);
         return localDate;
     }
 }

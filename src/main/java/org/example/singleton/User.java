@@ -14,7 +14,8 @@ public class User {
 
     public void save() {
         DBConnection dbConnection = DBConnection.getInstance();
-        String query = String.format("insert into user (email, name, age) values ('%s', '%s', %d);",
+        String query = String.format
+                ("insert into user (email, name, age) values ('%s', '%s', %d);",
                 email, name, age);
         dbConnection.executeQuery(query);
     }
