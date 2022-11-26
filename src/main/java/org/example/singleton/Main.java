@@ -8,4 +8,5 @@ public class Main {
         user.save();
     }
 }
-//C:\sqlite\sqlite-tools-win32-x86-3400000\sqlite-tools-win32-x86-3400000\sqlite3 lab10.db
+//C:\sqlite\sqlite-tools-win32-x86-3400000\
+// sqlite-tools-win32-x86-3400000\sqlite3 lab10.db
